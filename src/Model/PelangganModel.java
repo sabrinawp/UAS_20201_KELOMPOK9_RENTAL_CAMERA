@@ -27,10 +27,10 @@ public void insert(PelangganEntity pelangganEntity){
             System.out.println("===========================================");
         }
     }
-    public int cekData(String Astrid07221_id, String Astrid07221_nama){
+    public int cekData(String id, String nama){
         int loop = 0;
-        while (!pelangganEntityArrayList.get(loop).getId().equals(Astrid07221_id) && 
-                !pelangganEntityArrayList.get(loop).getnama().equals(Astrid07221_nama)){
+        while (!pelangganEntityArrayList.get(loop).getId().equals(id) && 
+                !pelangganEntityArrayList.get(loop).getnama().equals(nama)){
             loop++;
         }
         return loop;
