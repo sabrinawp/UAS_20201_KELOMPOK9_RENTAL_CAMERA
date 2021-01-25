@@ -1,6 +1,6 @@
 package Entity;
 import java.util.Date;
-public class PelangganEntity extends AbstractRentalCamera {
+public class PelangganEntity extends RentalCamera {
     protected Date tgl_sewa,tgl_kembali; 
     public PelangganEntity(String id,String nama,
     String alamat, String noIdentitas,String notelp,Date tgl_sewa,Date tgl_kembali){
@@ -8,6 +8,8 @@ public class PelangganEntity extends AbstractRentalCamera {
         this.tgl_sewa=tgl_sewa;
         this.tgl_kembali=tgl_kembali;
 }
+    public PelangganEntity(){
+    }
  @Override   
     public String getId() {
         return id;
