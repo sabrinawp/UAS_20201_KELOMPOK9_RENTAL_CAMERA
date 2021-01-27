@@ -58,7 +58,7 @@ public class PelangganGUI extends JFrame{
         @Override
         public void actionPerformed(ActionEvent ae){
             int indexcamera = pilcamera.getSelectedIndex();
-            Allobjctrl.Pelanggan.Astrid07221_DaftarCamera
+            Allobjctrl.Pelanggan.DaftarCamera
             (indexcamera,Allobjctrl.Pelanggan.getData(), false);
             area.setText(datapelanggan());
         }

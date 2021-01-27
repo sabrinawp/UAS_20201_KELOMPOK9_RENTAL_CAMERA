@@ -16,7 +16,7 @@ public class PelangganController implements ControllerInterface{
         return AllObjectModel.pelangganModel.getpelangganEntityArrayList(indexLogin);
     }
     
-    public void Astrid07221_DaftarCamera(int indexCamera,  PelangganEntity pelanggan,
+    public void DaftarCamera(int indexCamera,  PelangganEntity pelanggan,
             boolean isVerified) {
         AllObjectModel.daftarPelangganmodel.insertDataPelanggan(new 
         DaftarPelangganEntity (indexCamera,pelanggan, isVerified));

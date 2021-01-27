@@ -148,8 +148,9 @@ public class GUI extends JFrame{
                         PetugasGUI petugas = new PetugasGUI();
                     }catch(Exception exception){ //jika id/nama salah makan akan muncul pesan
                         JOptionPane.showMessageDialog(null, "id atau nama salah", "information", JOptionPane.INFORMATION_MESSAGE);
-                    }
                         kosong();//method kosong, jika datanya kosong
+                    }
+                        
                 }else{
                     try{ //login untuk pelanggan
                        Allobjctrl.Pelanggan.login(textidlogin.getText(),textnamalogin.getText());
